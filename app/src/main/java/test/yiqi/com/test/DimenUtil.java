@@ -17,6 +17,7 @@ public class DimenUtil {
     public static int getScreenHeight(Context context){
         final Resources resources=context.getApplicationContext().getResources();
         final DisplayMetrics dm=resources.getDisplayMetrics();
+        //ss
         return dm.heightPixels;
     }
 }
